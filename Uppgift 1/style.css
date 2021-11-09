@@ -18,7 +18,7 @@
   }
   .bg-light {
     background-color: #dadada;
-    color: #333;
+    color: rgb(255, 255, 255);
   }
 
   a {
@@ -31,21 +31,24 @@
 
   }
   .btn {
-    padding: .75rem 2.5rem;
+    padding: 1.2rem 3.5rem;
+    margin: 50px;
+    margin-left: 0;
     border: 1px solid transparent;
-    border-radius: 1rem;
+    border-radius: .5rem;
     outline: none;
     cursor: pointer;
     display: inline-block;
     font-weight: 600;
     font-size: 1rem;
-    background-color: transparent;
+    background-color: #25E6C8;
+    color: white;
     width: 100%;
   }
 
   .btn-primary {
     background-color: var(--primary-color);
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
 
   .btn-primary:hover {
@@ -109,22 +112,22 @@
     padding: 5rem;
   }
 
-  .text {
-    margin-bottom: 3rem;
-    color: #f0cfb6;
-  }
-
   .text h1 {
     font-size: 1.7rem;
-    text-transform: uppercase;
+    text-transform: none;
+    font-family: 
     letter-spacing: .1em;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    color: #363636;
   }
 
   .text p {
+    margin-botton: 3rem;
+    color: #626262;
     font-size: 1.1rem;
     font-weight: 500;
+    font-family: roboto slab;
   }
   
   @media (min-width: 768px) {
