@@ -97,13 +97,13 @@
 
   #showcase .container {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: space-around;
   }
 
   #showcase .container img {
-    height: 500px;
-    display: none;
+    padding-top: 25px;
+    justify-content: center;
   }
 
   .content {
@@ -115,19 +115,21 @@
   .text h1 {
     font-size: 1.7rem;
     text-transform: none;
-    font-family: 
+    font-family: serif;
     letter-spacing: .1em;
-    font-weight: 800;
-    margin-bottom: 3rem;
+    font-weight: 1000;
+    margin-bottom: 1rem;
     color: #363636;
+    width: 100%;
   }
 
-  .text p {
-    margin-botton: 3rem;
+  .text p { 
+    margin-bottom: 1.1px;
     color: #626262;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 400;
     font-family: roboto slab;
+    width: 180%;
   }
   
   @media (min-width: 768px) {
