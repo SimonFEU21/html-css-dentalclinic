@@ -151,7 +151,7 @@ a:hover {
   font-family: roboto slab;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0)
 }
 
 .cont-1 img {
@@ -168,19 +168,6 @@ a:hover {
 .para {
   color: #626262;
   font-family: roboto;
-}
-
-
-.btn2 {
-  width: 200px;
-  height: 45px;
-  border-radius: .5rem;
-  background-color white;
-  color: #2BAAEC;
-  border: 1px solid transparent;
-  cursor: pointer;
-  font-size: rem;
-  font-weight: 600;
 }
 
 hr{
@@ -203,6 +190,18 @@ hr{
   align-items: center;
 }
 
+.btn2 {
+  width: 200px;
+  height: 45px;
+  border-radius: .5rem;
+  background-color white;
+  color: #2BAAEC;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: rem;
+  font-weight: 600;
+}
+
 footer{
   background-color: #2BAAEC;
   font-weight: lighter;
@@ -214,17 +213,18 @@ footer{
 
 
 
+
 /* Media queris */
 
 @media (min-width: 768px) {
   .navbar-toggler {
     display: none;
   }
-
+  
   .collapse:not(.show) {
     display: block;
   }
-
+  
   .navbar-nav {
     flex-direction: row;
   }
