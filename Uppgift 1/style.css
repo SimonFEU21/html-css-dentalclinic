@@ -9,12 +9,18 @@ html, body {
   line-height: 1.5;
 }
 .container {
-  width: 100%;
-  margin: auto;
+  width: 100vh;
+}
+
+#topmeny {
+  border-bottom: 1px solid #70707050;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .bg-dark {
-  background-color: rgb(245, 244, 244);
   color: rgb(#626262);
 }
 .bg-light {
@@ -44,7 +50,6 @@ a:hover {
   font-size: 1rem;
   background-color: #25E6C8;
   color: white;
-  width: 100%;
 }
 
 .btn-primary {
@@ -52,15 +57,12 @@ a:hover {
   color: rgb(255, 255, 255);
 }
 
-.btn-primary:hover {
-}
-
-
 .top-nav {
   padding: .2rem 1rem;
   display: none;
 }
-.top-nav .container, 
+.top-nav .container,
+ 
 .navbar .container {
   display: flex;
   justify-content: space-between;
@@ -92,25 +94,22 @@ a:hover {
 }
 
 
-#showcase {
-  background-color: #dedede
-}
-
 #showcase .container {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-around;
+  background-color: #dedede;
+  width: 100%;
 }
 
 #showcase .container img {
   padding-top: 25px;
-  justify-content: center;
 }
 
-.content {
-  align-self: center;
-  text-align: center;
-  padding: 5rem;
+.text {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 6rem;
 }
 
 .text h1 {
@@ -119,18 +118,15 @@ a:hover {
   font-family: roboto slab;
   letter-spacing: .1em;
   font-weight: 1000;
-  margin-bottom: 1rem;
   color: #363636;
-  width: 100%;
+  padding-bottom: 2rem;
 }
-
+  
 .text p { 
-  margin-bottom: 1.1px;
   color: #626262;
   font-size: 1.1rem;
   font-weight: 400;
   font-family: roboto slab;
-  width: 180%;
 }
 
 .Appointment {
@@ -147,21 +143,20 @@ a:hover {
 }
 
 .cont-1{
-  display: flex;
   font-family: roboto slab;
+  display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(0, 0, 0)
 }
 
 .cont-1 img {
+  min-height: 473;
+  height: 60%;
   padding-top: 25px;
 }
 
 .cont_1_wrap{
-  /* border: 1px solid black; */
-  padding: 25px;
-  width: 35%;
+  width: 35%;  
 }
 
 
@@ -178,7 +173,7 @@ hr{
 .num_rep{
   display: flex;
   justify-content: space-evenly;
-  align-items: left;
+  align-items: center;
 }
 
 .hparaa{
@@ -190,11 +185,33 @@ hr{
   align-items: center;
 }
 
+.cont-2 {
+  background-color:#F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services hr {
+  border: 2px solid #25E6C8;
+  width: 250px;
+  border: 1;
+}
+
+
+
+
 .btn2 {
   width: 200px;
   height: 45px;
   border-radius: .5rem;
-  background-color white;
+  background-color: white;
   color: #2BAAEC;
   border: 1px solid transparent;
   cursor: pointer;
@@ -227,10 +244,12 @@ footer{
   
   .navbar-nav {
     flex-direction: row;
+    padding-right: 20rem;
+    
   }
 
   a {
-    padding: 0 .5rem;
+    padding: .5rem;
   }
 
   .top-nav {
@@ -241,16 +260,17 @@ footer{
     max-width: 720px;
   }
 
-  #showcase .container img {
+  .showcase .container img {
     display: inline-block;
   }
 
   .content {
+    display: flex;
     text-align: left;
   }
 
   .btn {
-    width: auto;
+    width: 40%;
   }
 }
 
@@ -263,11 +283,11 @@ footer{
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 100%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
   }
 }
