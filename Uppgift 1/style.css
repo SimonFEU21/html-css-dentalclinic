@@ -28,10 +28,6 @@ html, body {
    margin: auto 10rem;
 } 
 
-/* .navbar .container {
-  width: 50%;
-  margin: 0 auto;
-} */
 
 .navbar {
   margin: 3rem 0;
@@ -111,7 +107,6 @@ a:hover {
 /* Showcase end */
 
 
-
 /* Appointment start */
 
 .Appointment {
@@ -132,7 +127,7 @@ a:hover {
 /* Appointment end */
 
 
-/* About us */
+/* About us start */
 
 .cont-1{
   font-family: roboto slab;
@@ -173,6 +168,9 @@ hr{
   font-weight: robo slab;
 }
 
+/* About us end */
+
+/* Services start */
 
 .cont-2 {
   background-color:#F7F7F7;
@@ -195,14 +193,6 @@ hr{
   padding: 1.1rem;
   text-align: center;
 }
-
-/* .services hr {
-  border: 2px solid #25E6C8;
-  width: 250px;
-  border: 1;
-} */
-
-
 
 
 .grid-container {
@@ -440,6 +430,9 @@ hr{
   box-shadow: 0 0 30px rgba(43, 170, 236, 1);
 }
 
+/* Services end */
+
+/* Appointment start */
 
 .btn2 {
   width: 200px;
@@ -453,6 +446,10 @@ hr{
   font-weight: 600;
 }
 
+/* Appointment end */
+
+/* Footer start */
+
 footer{
   background-color: #2BAAEC;
   font-weight: lighter;
@@ -461,3 +458,150 @@ footer{
   align-items: center;
   color: #F3FBFF;
 }
+
+/* Footer end */
+
+/* ------------------------------------------------------------------ */
+
+ /* Media Queris */
+
+ @media only screen and (max-width: 1250px) {
+
+
+  .top-nav .container {
+    font-size: 7px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-nav .container img {
+    height: 8.5px;
+    width: 15px;
+  }
+
+  .social {
+    word-spacing: .5rem;
+  }
+
+  .navbar {
+    margin: .5rem;
+  }
+
+  .navbar  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar .container img {
+    /* width: 30px; */
+    /* height: 15px; */
+    padding-left: .5rem;
+  }
+
+  .navbar-nav {
+    font-size: 7px;
+    /* flex-direction: column; */
+  }
+
+  .nav-link {
+    padding: .5rem;
+    font-size: .6rem;
+  }
+
+  .showcase {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .showcase .container img {
+    display: none;
+  }
+  
+  .showcase .container .text h1, .showcase .container p {
+    font-size: 10px;
+    padding: 10px;
+  }
+  
+  
+  .showcase .btn {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .cont-1 {
+    margin: 2rem 0;
+  }
+
+  .cont_1_wrap {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+.num_rep {
+  justify-content: space-evenly;
+}
+
+  .num_rep .hparaa {
+    font-size: 10px;
+  }
+
+  .num_rep div p {
+    font-size: 10px;
+  }
+
+   hr {
+     margin: 0 auto;
+    width: 200px;
+  }
+
+  .cont-1 img {
+    display: none;
+  }
+
+  .services {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+
+
+  .cont-2 .grid-container  {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+  }
+
+  .cont-2 .grid-container div:hover {
+    box-shadow: none;
+  }
+  
+  
+  .cont-2 .grid-container div figure:hover {
+    box-shadow: none;
+    background-color: #25E6C8;
+  }
+
+  .cont-2 .grid-container .item2 figure:hover {
+    background-color: #2BAAEC;
+  }
+
+
+  .Appointment {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Appointment h3 {
+    font-size: 1rem;
+  }
+
+
+ }
