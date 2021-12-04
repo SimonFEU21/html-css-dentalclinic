@@ -174,6 +174,7 @@ hr{
   font-weight: robo slab;
 }
 
+
 .cont-2 {
   background-color:#F7F7F7;
   display: flex;
@@ -182,16 +183,20 @@ hr{
 }
 
 .services h1 {
+  border-bottom: 3.5px solid #25E6C8;
+  width: 10%;
+  padding: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
-.services hr {
+/* .services hr {
   border: 2px solid #25E6C8;
   width: 250px;
   border: 1;
-}
+} */
 
 
 
@@ -200,8 +205,10 @@ hr{
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2);
   gap: 20px;
-  width: 80%;
+  width: 60%;
+  margin: 10rem;
 }
+
 
 .item1 {
   display: flex;
@@ -209,10 +216,12 @@ hr{
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item1 p {
 width: 60%;
+text-align: center;
 }
 
 
@@ -238,10 +247,12 @@ width: 60%;
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item2 p {
   width: 60%;
+  text-align: center;
   }
 
   .item2 figure { 
@@ -266,10 +277,12 @@ width: 60%;
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item3 p {
   width: 60%;
+  text-align: center;
   }
 
   .item3 figure { 
@@ -294,10 +307,12 @@ width: 60%;
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item4 p {
   width: 60%;
+  text-align: center;
 }
 
 .item4 figure {
@@ -322,10 +337,12 @@ width: 60%;
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item5 p {
   width: 60%;
+  text-align: center;
 }
 
 .item5 figure {
@@ -350,10 +367,12 @@ width: 60%;
   align-items: center;
   flex-direction: column;
   background-color: #ffff;
+  height: 350px;
 }
 
 .item6 p {
   width: 60%;
+  text-align: center;
 }
 
 .item6 figure {
