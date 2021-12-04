@@ -496,14 +496,11 @@ footer{
   }
 
   .navbar .container img {
-    /* width: 30px; */
-    /* height: 15px; */
     padding-left: .5rem;
   }
 
   .navbar-nav {
     font-size: 7px;
-    /* flex-direction: column; */
   }
 
   .nav-link {
